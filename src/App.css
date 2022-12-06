@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+#button{
+  
+  background-color: #1fc8db;
+  background-image: linear-gradient(100deg,#7070bc 20%, #ca41d6 75%);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border-color: #282c34;
+  outline: none;
+  border-style: solid;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+#button:hover{
+
+  background-color: #1fc8db;
+  background-image: linear-gradient(100deg,#6363bd 20%, #c02dce 75%);
+
+}
+
+#desc{
+  position: absolute;
+  top: 15%;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  width: 700px;
+  left: 52%;
+  transform: translate(-50%, -50%);
+
+}
+
+#user_icon{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+  right: 0px;
+  
+
+}
+
+
+#user_info{
+  width: 180px;
+  top:700px;
+  position: absolute;
+}
+
+
+
+
+#country{
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+#ip{
+  color: #9193a8;
+  margin: 5px 0;
+  font-size: 20px;
+
+}
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+nav{
+  text-align : center;
+  position : absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height : 100px;
+  padding : 0 0;
+  border-radius : 8px;
+}
+ul{
+  line-height : inherit;
+  width : 50%;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul li{
+list-style : none;
+display : inline-block;
+padding : 0 0;
+line-height : 100px;
+user-select: none;
+}
+ul li a:hover{
+color : #5770ff;
+}
+ul li a{
+text-align : center;
+display : block;
+text-decoration : none;
+font-size : 22px;
+font-family : Montserrat;
+color : #fff;
+padding : 0 50px;
+user-select: none;
+
+}
+
+
+
